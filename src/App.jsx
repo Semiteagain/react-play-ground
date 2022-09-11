@@ -4,6 +4,7 @@ import Nav from './component/nav/Nav'
 import Header from './component/header/Header' 
 import About from './component/about/About'
 
+// Already install React router Dom
 
 const App = () => {
   return (
