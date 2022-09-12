@@ -38,3 +38,59 @@
     width: var(--container-lg);
     margin: 0 auto;
  }
+
+ section {
+    padding: 6rem 0;
+ }
+
+ h1, h2, h3, h4, h5 {
+    line-height: 1.2;
+ }
+
+
+ h1 {
+    font-weight: 2.4rem;
+ }
+
+ h2{
+    font-weight: 2rem;
+ }
+
+ h3 {
+    font-weight: 1.6rem;
+ }
+
+ h4 {
+    font-weight: 1.3rem;
+ }
+
+
+ a{
+    color: var(--color-white);
+ }
+
+ img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+ }
+
+ .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: var(--color-bg-variant);
+    color: var(--color-white);
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: all 400ms ease;
+ }
+
+ .btn:hover {
+    background: transparent;
+    color: var(--color-bg-variant);
+    border: var(--color-bg-variant);
+ }
+
+.btn__primary {
+    
+}
