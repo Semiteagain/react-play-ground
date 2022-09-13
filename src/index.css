@@ -17,8 +17,8 @@
     --color-primary:#000;
     --color-white:#FFFFFF;
     --color-accent:#E5146C;
-
-
+  
+    --transition:all 400ms ease;
 
     --container-lg:80%;
     --container-md:86%;
@@ -26,71 +26,63 @@
 }
 
  body {
-    font-family: Mo;
-    background: var(--color-bg);
-    color: var(--color-white);
-    line-height: 1.7;
+   font-family: Monserat;
+   background: var(--color-bg);
+   color: var(--color-white);
+   line-height: 1.7;
  }
-
-
 
  .container {
-    width: var(--container-lg);
-    margin: 0 auto;
+   width: var(--container-lg);
+   margin: 0 auto;
  }
 
- section {
-    padding: 6rem 0;
+ img{
+   display: block;
+   width: 100%;
+   object-fit: cover;
  }
 
- h1, h2, h3, h4, h5 {
-    line-height: 1.2;
- }
-
-
- h1 {
-    font-weight: 2.4rem;
- }
-
- h2{
-    font-weight: 2rem;
- }
-
- h3 {
-    font-weight: 1.6rem;
- }
-
- h4 {
-    font-weight: 1.3rem;
- }
-
-
- a{
-    color: var(--color-white);
- }
-
- img {
-    width: 100%;
-    display: block;
-    object-fit: cover;
- }
-
- .btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background: var(--color-bg-variant);
-    color: var(--color-white);
-    border: 1px solid transparent;
-    font-weight: 500;
-    transition: all 400ms ease;
- }
-
- .btn:hover {
-    background: transparent;
-    color: var(--color-bg-variant);
-    border: var(--color-bg-variant);
- }
-
-.btn__primary {
-    
+h1, h2, h3, h4, h5 {
+   font-weight: 500;
 }
+
+
+h1 {
+   font-size: 2.4rem;
+}
+
+h2 {
+   font-size: 2rem;
+}
+
+h3{
+   font-size: 1.6rem;
+}
+
+h4{
+   font-size: 1.2rem;
+}
+
+
+a{
+   color: var(--color-white);
+}
+
+.btn {
+   display: inline-block;
+   width: max-content;
+   background: var(--color-primary);
+   color: var(--color-white);
+   padding: 0.75rem 1.2rem;
+   border: 1px solid transparent;
+   transition: var(--transition);
+}
+
+.btn:hover {
+   background: var(--color-white);
+   color: var(--color-primary);
+   transition: var(--color-primary);
+}
+
+
