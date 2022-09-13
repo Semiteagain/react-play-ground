@@ -19,3 +19,12 @@ nav {
   align-items: center;
   gap: 4rem;
 }
+
+.nav__menu a {
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.nav__menu a:hover {
+  color: var(--color-white);
+}
