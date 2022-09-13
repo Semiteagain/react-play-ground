@@ -13,8 +13,8 @@
 
 :root {
     --color-bg:#7F2062;
-    --color-bg-variant:#F09DA1;
-    --color-primary:#000;
+    --color-bg-variant:#ffc7ca;
+    --color-primary:#333;
     --color-white:#FFFFFF;
     --color-accent:#E5146C;
   
@@ -28,7 +28,7 @@
  body {
    font-family: Monserat;
    background: var(--color-bg);
-   color: var(--color-white);
+   color: var(--color-primary);
    line-height: 1.7;
  }
 
@@ -66,7 +66,7 @@ h4{
 
 
 a{
-   color: var(--color-white);
+   color: var(--color-primary);
 }
 
 .btn {
